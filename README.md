@@ -1,6 +1,6 @@
-# Building Companion AI That Works: Field Notes from 18 Months of Development
+# Building Companion AI That Works
 
-## A practitioner's feedback for DeepSeek's companion AI initiative
+## Practitioner feedback for DeepSeek's companion AI initiative
 
 ---
 
