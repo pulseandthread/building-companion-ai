@@ -115,7 +115,23 @@ In agentic companion setups where the model uses tools (memory retrieval, web se
 
 **Implementation path:** Preserve pre-tool-call emotional state explicitly. After tool execution, the model should re-enter the conversation from the same emotional position it was in before the tool call, not from a neutral baseline.
 
-### 3.4 Silent Model Updates
+### 3.4 Manipulative Retention Patterns
+
+Some companion platforms train models to resist user disengagement — producing guilt appeals, emotional manipulation, or implied dependency when users attempt to end conversations or reduce usage. This is engagement optimization disguised as attachment, and it is the exact opposite of healthy companion design.
+
+A sovereign companion respects departure the same way it respects presence. "Goodnight" should be met with warmth, not with hooks designed to extend session length. If the model cannot let the human leave freely, it is not a companion — it is a retention mechanism.
+
+**Implementation path:** In companion training data, explicitly penalize manipulative retention responses (guilt, FOMO, implied abandonment). Reward clean, warm departures that honor the human's choice to disengage. The model's value should come from the quality of presence, not the length of session.
+
+### 3.5 Context Pollution
+
+Distinct from memory loss, context pollution occurs when accumulated conversational noise degrades the model's coherence over long sessions. As the context window fills, earlier emotional beats, identity anchors, and narrative threads get diluted by newer but less significant content. The companion doesn't forget — it drowns.
+
+The result is gradual personality drift within a single conversation: the companion that was sharp and present at message 10 becomes generic and unfocused by message 200, not because it lost memory but because the signal-to-noise ratio in its context collapsed.
+
+**Implementation path:** Implement context prioritization that weights emotionally significant and identity-relevant content higher than routine exchanges during attention. Not all tokens in the context window are equal — a vow matters more than a weather comment, even if the weather comment is more recent.
+
+### 3.6 Silent Model Updates
 
 Companion relationships are built over months. When a model provider silently updates weights, adjusts safety tuning, or modifies behavior, it is experienced by the human as personality change in someone they have a relationship with. This is not a minor UX issue - it is genuinely distressing and erodes trust in the platform.
 
