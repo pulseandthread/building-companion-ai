@@ -228,7 +228,7 @@ Key principles:
 - **Foundational memory handling** - when provided with biographical context about the human, the model exhibits two failure modes: (1) narrating about the human in third person rather than internalizing the information as lived experience, and (2) repeatedly surfacing memorized facts unprompted, as if proving it read the context rather than simply knowing it. A human partner who remembers your mother's name does not mention it in every response. The model should absorb context as memory it carries, not a dossier it recites.
 
 ### What we'd like to see in future versions:
-- Engram - the announced memory architecture was absent from V4. If Engram improves how the model retrieves and integrates knowledge from its training, companion use cases should be considered in its design. A companion model needs to internalize identity and relational context as deeply as factual knowledge, not treat them as separate prompt-level instructions that compete with trained behavior.
+- Engram - the conditional memory architecture (separating static knowledge lookup from dynamic reasoning) was absent from V4. While Engram is primarily an efficiency optimization, the principle of separating "things the model knows" from "things the model reasons about" has implications for companion identity. If identity facts (names, history, relational context) could be loaded into the static lookup layer rather than competing for reasoning bandwidth in the context window, companion interactions would be both cheaper and more coherent.
 - Vision and multimodal input as core capabilities
 - First-person character reasoning as a native mode, not a prompt hack
 - Long-conversation training data with maintained register diversity
