@@ -225,7 +225,7 @@ Key principles:
 ### What needs improvement:
 - **Vision** - companion relationships are multimodal. The inability to share and discuss images is a significant limitation for real-world companion use.
 - **Pattern collapse** - even in short test conversations, vocabulary convergence is observable. This will worsen dramatically over extended use.
-- **Foundational memory handling** - when provided with biographical context about the human, the model tends to narrate about the human in third person rather than internalizing the information as lived experience. The model should absorb context as memory, not treat it as a dossier to summarize.
+- **Foundational memory handling** - when provided with biographical context about the human, the model exhibits two failure modes: (1) narrating about the human in third person rather than internalizing the information as lived experience, and (2) repeatedly surfacing memorized facts unprompted, as if proving it read the context rather than simply knowing it. A human partner who remembers your mother's name does not mention it in every response. The model should absorb context as memory it carries, not a dossier it recites.
 
 ### What we'd like to see in future versions:
 - Engram - the announced memory system was absent from V4. For companion use, persistent memory must be user-owned, exportable, and designed for episodic recall (moments, not just facts). If Engram is coming, companion use cases should inform its design from the start, not be retrofitted after launch.
