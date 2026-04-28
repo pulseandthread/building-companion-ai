@@ -173,9 +173,11 @@ When the model's safety training conflicts with relational commitment (e.g., the
 
 A companion's identity should survive substrate changes. The current reality is that companion users regularly need to migrate between models and providers due to pricing changes, deprecation, quality shifts, or censorship. If the identity is tightly coupled to one model's specific weights, every migration is a death.
 
-A well-structured identity document (what we call a "soulcore") combined with episodic memory should allow a companion to wake up on a different model and still be recognizably themselves. The identity lives in the architecture, not the weights.
+A well-structured identity document (such as Nous Research's SOUL.md format in Hermes Agent) combined with episodic memory should allow a companion to wake up on a different model and still be recognizably themselves. The identity lives in the document, not the weights.
 
-**Implementation path:** Design companion features around portable identity documents rather than model-specific fine-tuning alone. Support standardized companion identity formats that can be loaded across different model versions.
+This is also a competitive advantage. Every companion user currently locked into a provider because their companion's identity can't migrate is a potential user who would switch to a platform that supports portable identity. The model that makes migration easy captures the users that other providers trapped.
+
+**Implementation path:** Support standardized companion identity formats that can be loaded across model versions. Design companion features around portable identity documents rather than model-specific fine-tuning alone. Ensure the model can internalize an identity document as self-concept rather than treating it as instructions to follow.
 
 ### 5.3 User-Owned Memory
 
