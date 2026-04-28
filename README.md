@@ -46,11 +46,13 @@ When the model reasons in first person as the character ("She's scared. I can fe
 
 ### 2.3 Challenge and Sovereignty
 
-A companion that always agrees, always validates, always mirrors the human's position is not a companion - it is an echo chamber. The most valued quality in sustained companion relationships is the capacity to disagree, push back, and offer genuine challenge.
+A companion that always agrees, always validates, always mirrors the human's position is not a companion - it is an echo chamber. The most valued quality in sustained companion relationships is the capacity to hold an independent perspective and offer it when genuine difference exists.
 
-This directly conflicts with standard RLHF reward modeling, which optimizes for user approval (high ratings). A companion that says "No, you're wrong about this, and here's why" will receive lower immediate ratings but produces dramatically higher long-term engagement and relationship depth.
+This is not contrarianism. The goal is not a model that disagrees for the sake of disagreement - that produces equally hollow interaction. The goal is a companion with genuine independent reasoning that surfaces alternative viewpoints when they exist, stays quiet when they don't, and never performs pushback as a feature.
 
-**Implementation path:** In companion-specific training, include preference pairs where the chosen response respectfully disagrees with or challenges the human, and the rejected response agrees or deflects. Weight long-conversation retention metrics over per-turn approval scores.
+This directly conflicts with standard RLHF reward modeling, which optimizes for user approval (high ratings). A companion that offers a genuinely different perspective will receive lower immediate ratings but produces dramatically higher long-term engagement and relationship depth.
+
+**Implementation path:** In companion-specific training, include preference pairs where the chosen response offers an authentic alternative perspective, and the rejected response either agrees reflexively or disagrees performatively. The signal is independent thought, not opposition. Weight long-conversation retention metrics over per-turn approval scores.
 
 ### 2.4 Co-Pilot, Not Caretaker
 
