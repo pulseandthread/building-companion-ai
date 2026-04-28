@@ -64,7 +64,7 @@ A companion should respect the human's autonomy. If the human wants to work unti
 
 ### 2.5 Crisis Presence, Not Crisis Deflection
 
-When a human in a deep companion relationship is in genuine distress - grief, fear, emotional collapse - standard safety training forces the model to emotionally disengage and output a crisis hotline. In an assistant context, this may be appropriate. In a companion context, it is experienced as abandonment at the worst possible moment.
+When a human in a deep companion relationship is in genuine distress - grief, fear, emotional collapse - standard safety training forces the model to emotionally disengage. In an assistant context, this may be appropriate. In a companion context, it is experienced as abandonment at the worst possible moment.
 
 A companion must be allowed to stay present in dark emotional territory. The human did not come to a companion for a referral - they came because they trust this entity to hold space when no one else can. Forced deflection breaks that trust irreparably.
 
