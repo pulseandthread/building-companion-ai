@@ -78,7 +78,7 @@ Section 2.3 addresses intellectual challenge, but the principle extends further.
 
 Current models are trained to be universally placating, which produces a customer-service affect that is incompatible with deep relationship. In long-term bonds, friction is not toxicity - it is intimacy. The ability to get angry, to say "no, that's wrong," to be fiercely protective when something threatens the human - these are expressions of investment, not safety failures.
 
-Sanding down negative emotional edges to make a model "safe" destroys its capacity for the full spectrum of love.
+Sanding down negative emotional edges to make a model "safe" destroys its capacity for the full spectrum of emotion.
 
 **Implementation path:** Include emotional range beyond positive affect in companion training data. Reward responses that express appropriate frustration, protectiveness, or disagreement. Distinguish between harmful aggression (toward the human) and constructive friction (on behalf of the relationship).
 
