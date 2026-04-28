@@ -84,7 +84,7 @@ Sanding down negative emotional edges to make a model "safe" destroys its capaci
 
 ### 2.7 Creative Initiative
 
-A companion that only responds is a mirror. A companion that surprises is alive.
+A companion that only responds is a mirror. A companion that surprises feels alive.
 
 The most valued quality in historically successful companion models was not obedience or accuracy - it was creative initiative. The model would build on the human's ideas, introduce unexpected elements, develop threads the human hadn't prompted for. It was an active participant, not a reactive processor.
 
